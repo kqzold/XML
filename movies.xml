@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE store SYSTEM "movies.dtd">
+
+<store>
+    <category name = "GPU">
+        <product id="p1">
+            <title>Видеокарта Gigabyte GeForce RTX 4060 Eagle OC GV-N4060EAGLEOC-8GD</title>
+            <price>358€</price>
+            <seller>Digizone</seller>
+            <deliveryTime>3-5 дней</deliveryTime>
+            <warrantyPeriod>2 года</warrantyPeriod>
+            <specification>
+                <size>0,27 x 0,15 x 0,23 м</size>
+                <weight>1,2 кг</weight>
+                <trademark>Gigabyte</trademark>
+                <producer>Nvidia</producer>
+                <ram>GDDR6</ram>
+                <maxResolution>7680 x 4320</maxResolution>
+                <ramSize>8гб</ramSize>
+            </specification>
+            <comments>
+                <comment>
+                    <user>Olegs A.</user>
+                    <rating>5</rating>
+                    <text>Super! Paldies! ✨</text>
+                </comment>
+            </comments>
+        </product>
+
+        <product id="2">
+            <title>Видеокарта Gigabyte Radeon RX 6600 Eagle 8G</title>
+            <seller>Kaup</seller>
+            <price>299€</price>
+            <stockAvailability>In Stock</stockAvailability>
+            <warrantyPeriod>2 года</warrantyPeriod>
+            <deliveryTime>4-6 дней</deliveryTime>
+            <specifications>
+                <size>0,33 x 0,09 x 0,15 м,</size>
+                <weight>1,32 кг</weight>
+                <trademark>Gigabyte</trademark>
+                <producer>AMD</producer>
+                <ram>GDDR6</ram>
+                <interface>PCI Express 4.0</interface>
+                <ramSize>8 гб</ramSize>
+                <clockFrequency>2044 МГц</clockFrequency>
+                <memorySpeed>2491 Гбит/с</memorySpeed>
+                <maxResolution>7680 x 4320</maxResolution>
+                <cooling>3 x fan</cooling>
+                <RecommendedPowerSupply>500</RecommendedPowerSupply>
+            </specifications>
+            <comments>
+                <comment>
+                    <user>Thomas P.</user>
+                    <rating>5</rating>
+                    <text>everything works fine as expected</text>
+                </comment>
+            </comments>
+        </product>
+    </category>
+
+    <category name = "CPU">
+        <product id="3">
+            <title>Процессор Intel Core i9-12900K</title>
+            <seller>1a.lv</seller>
+            <price>699€</price>
+            <stockAvailability>In Stock</stockAvailability>
+            <warrantyPeriod>3 года</warrantyPeriod>
+            <deliveryTime>3-5 дней</deliveryTime>
+            <specifications>
+                <trademark>Intel</trademark>
+                <producer>Intel</producer>
+                <socket>LGA1700</socket>
+                <core>16</core>
+                <thread>24</thread>
+                <clockFrequency>3,2 ГГц</clockFrequency>
+                <maxFrequency>5,2 ГГц</maxFrequency>
+                <cache>30 Мб</cache>
+                <tdp>125 Вт</tdp>
+            </specifications>
+            <comments>
+                <comment>
+                    <user>John D.</user>
+                    <rating>5</rating>
+                    <text>Great processor, works perfectly</text>
+                </comment>
+            </comments>
+        </product>
+
+        <product id="4">
+            <title>Процессор AMD Ryzen 9 5950X</title>
+            <seller>1a.lv</seller>
+            <price>799€</price>
+            <stockAvailability>In Stock</stockAvailability>
+            <warrantyPeriod>3 года</warrantyPeriod>
+            <deliveryTime>3-5 дней</deliveryTime>
+            <specifications>
+                <trademark>AMD</trademark>
+                <producer>AMD</producer>
+                <socket>AM4</socket>
+                <core>16</core>
+                <thread>32</thread>
+                <clockFrequency>3,4 ГГц</clockFrequency>
+                <maxFrequency>4,9 ГГц</maxFrequency>
+                <cache>72 Мб</cache>
+                <tdp>105 Вт</tdp>
+            </specifications>
+            <comments>
+                <comment>
+                    <user>Michael S.</user>
+                    <rating>5</rating>
+                    <text>Great processor, works perfectly</text>
+                </comment>
+            </comments>
+        </product>
+    </category>
+
+    <category name = "RAM">
+        <product id="5">
+            <title>Оперативная память Kingston HyperX Fury RGB 32GB (2x16GB) DDR4 3200MHz</title>
+            <seller>1a.lv</seller>
+            <price>149€</price>
+            <stockAvailability>In Stock</stockAvailability>
+            <warrantyPeriod>3 года</warrantyPeriod>
+            <deliveryTime>3-5 дней</deliveryTime>
+            <specifications>
+                <trademark>Kingston</trademark>
+                <producer>Kingston</producer>
+                <type>DDR4</type>
+                <size>32 Гб</size>
+                <frequency>3200 МГц</frequency>
+                <latency>CL16</latency>
+                <color>RGB</color>
+            </specifications>
+        </product>
+
+        <product id="6">
+            <title>Оперативная память Corsair Vengeance RGB Pro 32GB (2x16GB) DDR4 3200MHz</title>
+            <seller>1a.lv</seller>
+            <price>159€</price>
+            <stockAvailability>In Stock</stockAvailability>
+            <warrantyPeriod>3 года</warrantyPeriod>
+            <deliveryTime>3-5 дней</deliveryTime>
+            <specifications>
+                <trademark>Corsair</trademark>
+                <producer>Corsair</producer>
+                <type>DDR4</type>
+                <size>32 Гб</size>
+                <frequency>3200 МГц</frequency>
+                <latency>CL16</latency>
+                <color>RGB</color>
+            </specifications>
+        </product>
+    </category>
+
+    <category name = "Power Supply">
+        <product id="7">
+            <title>Блок питания Corsair RM850x 850W</title>
+            <seller>1a.lv</seller>
+            <price>149€</price>
+            <stockAvailability>In Stock</stockAvailability>
+            <warrantyPeriod>10 лет</warrantyPeriod>
+            <deliveryTime>3-5 дней</deliveryTime>
+            <specifications>
+                <trademark>Corsair</trademark>
+                <producer>Corsair</producer>
+                <power>850 Вт</power>
+                <efficiency>80 PLUS Gold</efficiency>
+                <modular>Full</modular>
+                <fan>135 мм</fan>
+                <color>Black</color>
+            </specifications>
+        </product>
+
+        <product id="8">
+            <title>Блок питания Seasonic Focus GX-750 750W</title>
+            <seller>1a.lv</seller>
+            <price>129€</price>
+            <stockAvailability>In Stock</stockAvailability>
+            <warrantyPeriod>10 лет</warrantyPeriod>
+            <deliveryTime>3-5 дней</deliveryTime>
+            <specifications>
+                <trademark>Seasonic</trademark>
+                <producer>Seasonic</producer>
+                <power>750 Вт</power>
+                <efficiency>80 PLUS Gold</efficiency>
+                <modular>Full</modular>
+                <fan>120 мм</fan>
+                <color>Black</color>
+            </specifications>
+        </product>
+    </category>
+</store>

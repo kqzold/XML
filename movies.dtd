@@ -1,0 +1,36 @@
+<!ELEMENT store (category+)>
+<!ELEMENT category (product+)>
+<!ATTLIST category name CDATA #REQUIRED>
+<!ELEMENT product (title, price, seller, deliveryTime, warrantyPeriod, specification, comments?)>
+<!ATTLIST product id ID #REQUIRED>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT seller (#PCDATA)>
+<!ELEMENT deliveryTime (#PCDATA)>
+<!ELEMENT warrantyPeriod (#PCDATA)>
+<!ELEMENT specification (size?, weight?, trademark, producer, ram?, maxResolution?, ramSize?, interface?, clockFrequency?, memorySpeed?, cooling?, RecommendedPowerSupply?, type?, frequency?, latency?, color?, power?, efficiency?, modular?, fan?)>
+<!ELEMENT size (#PCDATA)>
+<!ELEMENT weight (#PCDATA)>
+<!ELEMENT trademark (#PCDATA)>
+<!ELEMENT producer (#PCDATA)>
+<!ELEMENT ram (#PCDATA)>
+<!ELEMENT maxResolution (#PCDATA)>
+<!ELEMENT ramSize (#PCDATA)>
+<!ELEMENT interface (#PCDATA)>
+<!ELEMENT clockFrequency (#PCDATA)>
+<!ELEMENT memorySpeed (#PCDATA)>
+<!ELEMENT cooling (#PCDATA)>
+<!ELEMENT RecommendedPowerSupply (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT frequency (#PCDATA)>
+<!ELEMENT latency (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT power (#PCDATA)>
+<!ELEMENT efficiency (#PCDATA)>
+<!ELEMENT modular (#PCDATA)>
+<!ELEMENT fan (#PCDATA)>
+<!ELEMENT comments (comment+)>
+<!ELEMENT comment (user, rating, text)>
+<!ELEMENT user (#PCDATA)>
+<!ELEMENT rating (#PCDATA)>
+<!ELEMENT text (#PCDATA)>
