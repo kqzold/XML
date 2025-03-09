@@ -1,0 +1,57 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="store">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="category" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="product" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="title" type="xs:string"/>
+                                        <xs:element name="seller" type="xs:string"/>
+                                        <xs:element name="price" type="xs:string"/>
+                                        <xs:element name="stockAvailability" type="xs:string"/>
+                                        <xs:element name="warrantyPeriod" type="xs:string"/>
+                                        <xs:element name="deliveryTime" type="xs:string"/>
+                                        <xs:element name="specifications">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="trademark" type="xs:string"/>
+                                                    <xs:element name="producer" type="xs:string"/>
+                                                    <xs:element name="power" type="xs:string"/>
+                                                    <xs:element name="efficiency" type="xs:string"/>
+                                                    <xs:element name="modular" type="xs:string"/>
+                                                    <xs:element name="fan" type="xs:string"/>
+                                                    <xs:element name="color" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="comments">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="comment" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="user" type="xs:string"/>
+                                                                <xs:element name="rating" type="xs:integer"/>
+                                                                <xs:element name="text" type="xs:string"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:integer" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

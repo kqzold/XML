@@ -1,0 +1,23 @@
+<!ELEMENT store (category+)>
+<!ELEMENT category (product+)>
+<!ELEMENT product (title, seller, price, stockAvailability, warrantyPeriod, deliveryTime, specifications, comments)>
+<!ATTLIST product id ID #REQUIRED>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT seller (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT stockAvailability (#PCDATA)>
+<!ELEMENT warrantyPeriod (#PCDATA)>
+<!ELEMENT deliveryTime (#PCDATA)>
+<!ELEMENT specifications (trademark, producer, power, efficiency, modular, fan, color)>
+<!ELEMENT trademark (#PCDATA)>
+<!ELEMENT producer (#PCDATA)>
+<!ELEMENT power (#PCDATA)>
+<!ELEMENT efficiency (#PCDATA)>
+<!ELEMENT modular (#PCDATA)>
+<!ELEMENT fan (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT comments (comment+)>
+<!ELEMENT comment (user, rating, text)>
+<!ELEMENT user (#PCDATA)>
+<!ELEMENT rating (#PCDATA)>
+<!ELEMENT text (#PCDATA)>

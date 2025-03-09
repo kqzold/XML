@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE store SYSTEM "movies.dtd">
+<!DOCTYPE store SYSTEM "components.dtd">
 
-<store>
+<store xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="components.xsd">
     <category name = "GPU">
         <product id="p1">
             <title>Видеокарта Gigabyte GeForce RTX 4060 Eagle OC GV-N4060EAGLEOC-8GD</title>
@@ -131,6 +131,13 @@
                 <latency>CL16</latency>
                 <color>RGB</color>
             </specifications>
+            <comments>
+                <comment>
+                    <user>Thomas P.</user>
+                    <rating>5</rating>
+                    <text>everything works fine as expected</text>
+                </comment>
+            </comments>
         </product>
 
         <product id="6">
@@ -149,6 +156,13 @@
                 <latency>CL16</latency>
                 <color>RGB</color>
             </specifications>
+            <comments>
+                <comment>
+                    <user>Thomas P.</user>
+                    <rating>5</rating>
+                    <text>everything works fine as expected</text>
+                </comment>
+            </comments>
         </product>
     </category>
 
@@ -169,6 +183,13 @@
                 <fan>135 мм</fan>
                 <color>Black</color>
             </specifications>
+            <comments>
+                <comment>
+                    <user>Thomas P.</user>
+                    <rating>5</rating>
+                    <text>everything works fine as expected</text>
+                </comment>
+            </comments>
         </product>
 
         <product id="8">
@@ -187,6 +208,13 @@
                 <fan>120 мм</fan>
                 <color>Black</color>
             </specifications>
+            <comments>
+                <comment>
+                    <user>Thomas P.</user>
+                    <rating>5</rating>
+                    <text>everything works fine as expected</text>
+                </comment>
+            </comments>
         </product>
     </category>
-</store>
+</store> 

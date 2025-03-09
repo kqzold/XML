@@ -1,0 +1,36 @@
+1. Query: /store/category/@name
+   Result: GPU
+
+2. Query: /store/category/product/title
+   Result:
+   Видеокарта Gigabyte GeForce RTX 4060 Eagle OC GV-N4060EAGLEOC-8GD
+   Видеокарта Gigabyte Radeon RX 6600 Eagle 8G
+
+3. Query: /store/category/product[@id='p1']/price
+   Result: 358€
+
+4. Query: /store/category/product[@id='2']/seller
+   Result: Kaup
+
+5. Query: /store/category/product/specification/trademark
+   Result:
+   Gigabyte
+
+6. Query: /store/category/product/comments/comment/user
+   Result:
+   Olegs A.
+
+7. Query: /store/category/product/comments/comment/rating
+   Result:
+   5
+
+8. Query: /store/category/product/stockAvailability
+   Result: In Stock
+
+9. Query: /store/category/product/specification/ram
+   Result:
+   GDDR6
+
+10. Query: /store/category/product/specification/ramSize
+    Result:
+    8гб
